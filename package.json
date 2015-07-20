@@ -4,7 +4,7 @@
   "description": "Интеграция со службами доставки",
   "main": "index.js",
   "scripts": {
-    "build": "multidep --taist-site-name МойСклад --taist-site-regexp online.moysklad.ru --export --babel 1 --debug -o dist",
+    "build": "multidep --taist-id moysklad-module-shipping --taist-site-name МойСклад --taist-site-regexp online.moysklad.ru --export --babel 1 --debug -o dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

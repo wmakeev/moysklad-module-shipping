@@ -1,7 +1,7 @@
 function init() {
 
   function startModule(define, taistApi, entryPoint) {
-    // Build time: Mon Jul 20 2015 19:21:26 GMT+0500 (UZT)
+    // Build time: Mon Jul 20 2015 19:58:04 GMT+0500 (UZT)
 define("@wmakeev/moysklad-module-shipping@0.0.1", ["multiver!lodash@^3.0.0"], function() {
   var global = window;
   var __global_require__ = require;
