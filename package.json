@@ -1,0 +1,21 @@
+{
+  "name": "@wmakeev/moysklad-module-shipping",
+  "version": "0.0.1",
+  "description": "Интеграция со службами доставки",
+  "main": "index.js",
+  "scripts": {
+    "build": "multidep --taist-site-name МойСклад --taist-site-regexp online.moysklad.ru --export --babel 1 --debug -o dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "moysklad",
+    "shipping",
+    "module"
+  ],
+  "dependencies": {
+    "lodash": "^3.0.0",
+    "moysklad-client": "*"
+  },
+  "author": "Vitaliy V. Makeev",
+  "license": "MIT"
+}
