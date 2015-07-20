@@ -1,8 +1,8 @@
 function init() {
 
   function startModule(define, taistApi, entryPoint) {
-    // Build time: Mon Jul 20 2015 20:16:53 GMT+0500 (UZT)
-define("@wmakeev/moysklad-module-shipping@0.0.1", ["multiver!lodash@^3.0.0"], function() {
+    // Build time: Mon Jul 20 2015 21:09:11 GMT+0500 (UZT)
+define("@wmakeev/moysklad-module-shipping@0.0.2", ["multiver!lodash@^3.0.0"], function() {
   var global = window;
   var __args__ = arguments;
   var require = (function() {
@@ -79,7 +79,7 @@ define("@wmakeev/moysklad-module-shipping@0.0.1", ["multiver!lodash@^3.0.0"], fu
 /* 2 */
 /***/ function(module, exports) {
 
-	eval("module.exports = require(\"moysklad-client\");;//@ sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vZXh0ZXJuYWwgXCJyZXF1aXJlKFxcXCJtb3lza2xhZC1jbGllbnRcXFwiKTtcIj9iYThmIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBIiwiZmlsZSI6IjIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IHJlcXVpcmUoXCJtb3lza2xhZC1jbGllbnRcIik7O1xuXG5cbi8qKioqKioqKioqKioqKioqKlxuICoqIFdFQlBBQ0sgRk9PVEVSXG4gKiogZXh0ZXJuYWwgXCJyZXF1aXJlKFxcXCJtb3lza2xhZC1jbGllbnRcXFwiKTtcIlxuICoqIG1vZHVsZSBpZCA9IDJcbiAqKiBtb2R1bGUgY2h1bmtzID0gMFxuICoqLyJdLCJzb3VyY2VSb290IjoiIn0=");
+	eval("module.exports = window.require(\"moysklad-client\");;//@ sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vZXh0ZXJuYWwgXCJ3aW5kb3cucmVxdWlyZShcXFwibW95c2tsYWQtY2xpZW50XFxcIik7XCI/ZTM2ZSJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSIsImZpbGUiOiIyLmpzIiwic291cmNlc0NvbnRlbnQiOlsibW9kdWxlLmV4cG9ydHMgPSB3aW5kb3cucmVxdWlyZShcIm1veXNrbGFkLWNsaWVudFwiKTs7XG5cblxuLyoqKioqKioqKioqKioqKioqXG4gKiogV0VCUEFDSyBGT09URVJcbiAqKiBleHRlcm5hbCBcIndpbmRvdy5yZXF1aXJlKFxcXCJtb3lza2xhZC1jbGllbnRcXFwiKTtcIlxuICoqIG1vZHVsZSBpZCA9IDJcbiAqKiBtb2R1bGUgY2h1bmtzID0gMFxuICoqLyJdLCJzb3VyY2VSb290IjoiIn0=");
 
 /***/ }
 /******/ ]);

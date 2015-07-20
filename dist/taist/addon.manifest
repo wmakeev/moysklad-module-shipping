@@ -3,7 +3,7 @@
   "siteRegexp": "online.moysklad.ru",
   "id": "moysklad-module-shipping",
   "js": "addon.js",
-  "title": "@wmakeev/moysklad-module-shipping@0.0.1",
+  "title": "@wmakeev/moysklad-module-shipping@0.0.2",
   "shortDescription": "Интеграция со службами доставки",
   "description": "addon.md"
 }
