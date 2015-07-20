@@ -4,7 +4,7 @@ function init() {
     // Build time: Mon Jul 20 2015 19:58:04 GMT+0500 (UZT)
 define("@wmakeev/moysklad-module-shipping@0.0.1", ["multiver!lodash@^3.0.0"], function() {
   var global = window;
-  var __global_require__ = require;
+  var __global_require__ = window.require;
   var __args__ = arguments;
   var require = (function() {
     var deps = ["lodash@^3.0.0"].reduce(function(res, dep, index) {
@@ -15,6 +15,7 @@ define("@wmakeev/moysklad-module-shipping@0.0.1", ["multiver!lodash@^3.0.0"], fu
       if (name in deps) {
         return __args__[deps[name]];
       } else if (__global_require__) {
+        debugger;
         return __global_require__(name);
       } else {
         var err = new Error("Cannot find module '" + name + "'");
