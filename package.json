@@ -1,10 +1,10 @@
 {
   "name": "@wmakeev/moysklad-module-shipping",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Интеграция со службами доставки",
   "main": "index.js",
   "scripts": {
-    "build": "multidep --taist-id moysklad-module-shipping --taist-site-name МойСклад --taist-site-regexp online.moysklad.ru --export --babel 1 --debug -o dist",
+    "build": "multidep --taist-id moysklad-module-shipping --taist-site-name МойСклад --taist-site-regexp online.moysklad.ru --export --babel 1 -o dist -d",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

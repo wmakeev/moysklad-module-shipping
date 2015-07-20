@@ -35,7 +35,7 @@ async function menuHandler(menu) {
   }
 }
 
-export function moyskladShippingModule(sb) {
+export default function moyskladShippingModule(sb) {
   let { UI } = sb;
   return {
     async init(options) {
