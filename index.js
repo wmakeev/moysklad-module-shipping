@@ -20,7 +20,7 @@ function deliveryRequest(customerOrders) {
  */
 async function menuHandler(menu) {
   let ordersUuids = menu.appContext === 'customerorder'
-    ? UI.getSelectedRowsUuids()
+    ? this.UI.getSelectedRowsUuids()
     : [this.router.getQuery().id];
 
   if (ordersUuids.length > 0) {
@@ -31,7 +31,7 @@ async function menuHandler(menu) {
   else {
     // Ошибка не должна возникать т.к.
     // меню 'Создать' не активно когда докумены не выбраны
-    UI.error(new Error('Заказы не выбраны'))
+    this.UI.error(new Error('Заказы не выбраны'))
   }
 }
 
