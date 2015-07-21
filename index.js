@@ -20,7 +20,7 @@ function deliveryRequest(customerOrders) {
  */
 async function menuHandler(menu) {
   let ordersUuids = menu.appContext === 'customerorder'
-    ? this.UI.getSelectedRowsUuids()
+    ? await this.UI.getSelectedRowsUuids()
     : [this.router.getQuery().id];
 
   if (ordersUuids.length > 0) {
