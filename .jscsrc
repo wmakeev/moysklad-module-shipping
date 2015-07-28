@@ -1,0 +1,8 @@
+{
+  "esprima": "babel-jscs",
+  "verbose": true,
+  "preset": "airbnb",
+  "disallowTrailingComma": null,
+  "disallowSpacesInFunctionExpression": null,
+  "disallowSpacesInAnonymousFunctionExpression": null
+}

@@ -1,0 +1,4 @@
+--harmony
+--require ./test/node-setup
+--reporter dot
+src/**/*.spec.js

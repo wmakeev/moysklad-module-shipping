@@ -1,8 +1,8 @@
 {
   "name": "@wmakeev/moysklad-module-shipping",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Интеграция со службами доставки",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "build": "multidep --taist-id moysklad-module-shipping --taist-site-name МойСклад --taist-site-regexp online.moysklad.ru --export --babel 1 -o dist -d",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,8 +14,26 @@
   ],
   "dependencies": {
     "lodash": "^3.0.0",
-    "moysklad-client": "*"
+    "moysklad-client": "^0.2.6",
+    "moysklad-router": "^0.3.2"
   },
   "author": "Vitaliy V. Makeev",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.3",
+    "babel-eslint": "^3.1.26",
+    "babel-jscs": "^2.0.1",
+    "chai": "^3.2.0",
+    "coffee-script": "^1.9.3",
+    "es6-promise": "^2.3.0",
+    "eslint": "^0.24.1",
+    "is-promise": "^2.0.0",
+    "lodash": "^3.10.0",
+    "mocha": "^2.2.5",
+    "mockery": "^1.4.0",
+    "resolve": "^1.1.6",
+    "sinon": "^1.15.4",
+    "sinon-chai": "^2.8.0",
+    "source-map-support": "^0.3.2"
+  }
 }
