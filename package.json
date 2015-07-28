@@ -1,6 +1,6 @@
 {
   "name": "@wmakeev/moysklad-module-shipping",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Интеграция со службами доставки",
   "main": "src/index.js",
   "scripts": {

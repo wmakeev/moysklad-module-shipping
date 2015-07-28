@@ -18,6 +18,6 @@ export default async function requestConfirmation(orders) {
   }));
 
   this.log.debug(results);
-  this.alert('Заявки отправлены в службу доставки');
+  this.UI.alert('Заявки отправлены в службу доставки');
   return results;
 }

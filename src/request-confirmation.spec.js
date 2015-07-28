@@ -15,7 +15,9 @@ describe('requestConfirmation', () => {
     this.sb = {
       sendRequest: sinon.stub().returns(Promise.resolve('ok')),
       log: { debug: () => true },
-      alert: sinon.spy(),
+      UI: {
+        alert: sinon.spy(),
+      },
     };
 
     this.orders = [
@@ -48,7 +50,7 @@ describe('requestConfirmation', () => {
             { order: 'normalized-order' },
           ]);
 
-        that.sb.alert.calledWith(sinon.match.string);
+        that.sb.UI.alert.calledWith(sinon.match.string);
 
         expect(results).to.be.eql('ok');
 
