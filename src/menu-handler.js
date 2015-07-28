@@ -14,6 +14,8 @@ export default async function menuHandler({ appContext }) {
   if (ordersUuids.length > 0) {
     let orders = await this.client
       .from('customerOrder').uuids(ordersUuids).load();
+    this.client
+      .createLazyLoader().attach(orders, ['Position.good', 'sourceAgent']);
     requestConfirmation.call(this, orders);
   }
   else {
